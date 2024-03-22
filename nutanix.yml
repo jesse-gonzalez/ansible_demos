@@ -4,9 +4,9 @@ nutanix_username: "admin"
 nutanix_password: "ntnxSAS/4u!"
 validate_certs: false
 data: {"offset": 0, "length": 1000}
-# groups:
-#   group_1: "'auto' in name"
-#   group_2: "'autoad'==name"
+groups:
+  group_1: "'auto' in name"
+  group_2: "'autoad'==name"
 keyed_groups:
   - prefix: "host"
     separator: ':'

@@ -7,7 +7,7 @@ data: {"offset": 0, "length": 1000}
 groups:
   group_1: "'auto' in name"
   group_2: "'autoad'==name"
-keyed_groups:
-  - prefix: "host"
-    separator: ":"
-    key: "ansible_host"
+# keyed_groups:
+#   - prefix: "host"
+#     separator: ":"
+#     key: "ansible_host"
